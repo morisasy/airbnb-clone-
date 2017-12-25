@@ -50,6 +50,11 @@ class App extends Component {
       <div className = "app">
           <div className = "main">
               <div className = "search">
+                  <input 
+                    type= "text"
+                    placeholder = "search..."
+                    value = {this.state.search}}
+                    onChange = {this.handleSearch} />
               </div>
               <div className = "flats">
                   
